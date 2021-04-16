@@ -1,5 +1,6 @@
 module.exports = {
-  siteMetadata: {
+    siteMetadata: {
+    siteUrl: 'https://mesneviden-cevaplar.netlify.app/',
     title: "app",
   },
   plugins: [
