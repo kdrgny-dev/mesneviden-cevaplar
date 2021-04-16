@@ -1,0 +1,37 @@
+.header {
+    background-color: #67A030;
+    border-bottom:10px solid white;
+    &_title {
+        font-size: 75px;
+        color:#CCDB86
+    }
+    &_subtitle {
+        font-size: 35px;
+        color:white;
+    }
+    &_btn {
+        background-color: #DCE0CD;
+        color:#003700;
+        font-weight: 700;
+        margin:0 10px;
+        border:3px solid #003700;
+        font-size: 20px;
+    }
+    &_items {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    &_item {
+        font-size: 22px;
+        font-weight: 700;
+        color:#003700;
+        &:before {
+            content:'';
+            width: 15px;
+            height: 15px;
+            background-color: #CCDB86;
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}
